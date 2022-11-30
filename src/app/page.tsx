@@ -104,14 +104,30 @@ const Home = () => (
       </div>
     </div>
 
-    <iframe
-      width="800"
-      height="800"
-      style={{
-        border: "none",
-      }}
-      src="https://crosswordlabs.com/embed/fifa-world-cup-49?clue_height=30"
-    ></iframe>
+    <div>
+      <iframe
+        width="800"
+        height="800"
+        style={{
+          border: "none",
+        }}
+        src="https://crosswordlabs.com/embed/fifa-world-cup-49?clue_height=30"
+      ></iframe>
+    </div>
+    <div>
+      <iframe
+        // style="border-radius:12px"
+        style={{
+          borderRadius: "12px",
+        }}
+        src="https://open.spotify.com/embed/playlist/7kDpUqA5PiLfOoM5xdfJF6?utm_source=generator"
+        width="100%"
+        height="380"
+        allowFullScreen={false}
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
   </>
 )
 
