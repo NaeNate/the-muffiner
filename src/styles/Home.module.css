@@ -1,0 +1,14 @@
+.header {
+  text-align: center;
+}
+
+.piece {
+  display: inline-block;
+  text-align: center;
+}
+
+.podium {
+  width: 200px;
+  background-color: gold;
+  display: inline-block;
+}

@@ -1,5 +1,5 @@
 export default {
-  reactScrictMode: true,
+  reactStrictMode: true,
   experimental: {
     appDir: true,
   },
