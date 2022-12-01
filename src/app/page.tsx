@@ -1,4 +1,5 @@
 import soccer from "@public/soccer.jpeg"
+import art from "@public/art.jpg"
 import styles from "@styles/Home.module.css"
 import Image from "next/image"
 import Link from "next/link"
@@ -6,16 +7,16 @@ import Link from "next/link"
 const Home = () => {
   return (
     <>
-      <div className={styles.soccer}>
+      <div className={styles.article}>
         <Image
           src={soccer}
           alt="Ethiopian Soccer Fans"
-          className={styles.soccerImage}
+          className={styles.image}
         />
         <h1>The Walias: From Champions to Underdogs</h1>
         <h2>Ammar Abagumbul</h2>
         <br />
-        <p className={styles.soccerBody}>
+        <p className={styles.body}>
           In the light of the world cup and the upcoming underdogs that have
           displayed a determined fighting spirit against some of the most
           legendary teams “The Walias: From Champions to Underdogs” tracks the
@@ -26,11 +27,19 @@ const Home = () => {
         </p>
       </div>
 
-      {/* <div className={styles.soccer}>
-        <div className={styles.france}>2</div>
-        <div className={styles.brazil}>1</div>
-        <div className={styles.portugal}>3</div>
-      </div> */}
+      <div className={styles.article}>
+        <Image src={art} alt="Paint on Canvas" className={styles.image} />
+        <h1>A Blurr of Art</h1>
+        <h2>Bessy Belay</h2>
+        <br />
+        <p className={styles.body}>
+          "A Blurr of Art" takes a close look at an art piece by none other than
+          an ICS high school student.{" "}
+          <Link href="/article/blurr-of-art" className={styles.readMore}>
+            Read More
+          </Link>
+        </p>
+      </div>
     </>
   )
 }

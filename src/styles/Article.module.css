@@ -1,14 +1,15 @@
-.soccer {
+.article {
   width: 70%;
-  margin: auto;
+  margin: 30px auto;
   text-align: center;
 }
 
-.soccerImage {
+.image {
   width: 70%;
   height: auto;
 }
 
-.soccerBody {
+.body {
   text-align: justify;
+  margin-bottom: 30px;
 }

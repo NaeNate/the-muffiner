@@ -1,20 +1,20 @@
 import soccer from "@public/soccer.jpeg"
-import styles from "@styles/TheWalias.module.css"
+import styles from "@styles/Article.module.css"
 import Image from "next/image"
 
-const Home = () => {
+const TheWalias = () => {
   return (
     <>
-      <div className={styles.soccer}>
+      <div className={styles.article}>
         <Image
           src={soccer}
           alt="Ethiopian Soccer Fans"
-          className={styles.soccerImage}
+          className={styles.image}
         />
         <h1>The Walias: From Champions to Underdogs</h1>
         <h2>Ammar Abagumbul</h2>
         <br />
-        <p className={styles.soccerBody}>
+        <p className={styles.body}>
           “Adane! Saladin! Adane! Seladiiiin… Goooal!!” announced the elated
           football commentator. Everyone was cheering, some were crying in joy,
           and some were daydreaming of the promised land the national team was
@@ -30,7 +30,7 @@ const Home = () => {
           Ethiopia is known for several things. Its ancient civilization,
           coffee, athletic runners, and, maybe, its good-looking women. However,
           it is hard to say that the nickname “the Walias” or “the Ethiopian
-          Football National Team” rings one’s bell who is not really into
+          Football National Team” rings one's bell who is not really into
           Ethiopian Football. One might even ask, “Does Ethiopia even have an
           active national football team?” A quite reasonable question to ask.
           But what to say?
@@ -46,12 +46,12 @@ const Home = () => {
           Ethiopians suddenly stopped football or because the players were
           rendered unskilled. It is because of some underlying factors to be
           examined. But first, it is important to put things into perspective
-          before we continue on. Let’s head back to the golden age of Ethiopian
+          before we continue on. Let's head back to the golden age of Ethiopian
           football, the 1950s, and 1960s.
           <br />
           <br />
           Ethiopia has a long football tradition and was once amongst the most
-          accomplished football teams in all of Africa. What’s more, Ethiopia
+          accomplished football teams in all of Africa. What's more, Ethiopia
           was one of the four countries that established what is today known as
           the Confederation of African Football (CAF). Ethiopia qualified for
           regional and continental competitions again and again, to the extent
@@ -128,7 +128,7 @@ const Home = () => {
           distance a player covers in a game was around 7 km.” (Dr. Abi) back in
           the day. But now, things have changed remarkably. The average distance
           has risen to around 11.5 km (site). But here is where the main
-          question arises, “Why couldn’t the Walias adapt while many others
+          question arises, “Why couldn't the Walias adapt while many others
           did?” Apparently, the clubs themselves have failed to keep up with the
           evolving football.
           <br />
@@ -148,7 +148,7 @@ const Home = () => {
           <br />
           The national team is the culmination of this problem, not where its
           starts. “In this country, the club organization is very shameful,”
-          said Dr. Elias. “There isn’t any football club in Ethiopia, even the
+          said Dr. Elias. “There isn't any football club in Ethiopia, even the
           big clubs, which has a fitness expert”. This shows that the problem is
           far-reaching, and that building a high-caliber national team is
           basically to “build up from scratch.”
@@ -160,7 +160,7 @@ const Home = () => {
           without the support of the government creates the skepticism that
           clubs are not working as hard as they should. “As Dr. Abiy said, if
           the government were to pull its hands out of Ethiopian Football, there
-          wouldn’t be a team which could have stood by its own, save for St.
+          wouldn't be a team which could have stood by its own, save for St.
           Georgis,” said Dr. Elieas, “and the committee who are chosen are
           always routing the money to their own personal benefits”.
           <br />
@@ -173,8 +173,8 @@ const Home = () => {
           only 18 when she competed [and won] in Paris [2003 World Championship
           for Athletics.] . . . If FIFA did not have the U-17 and U-20 teams as
           a requirement for the recognition of a team, no one would have
-          bothered. They don’t even feed them properly. You can not project the
-          future when you don’t look at your kids.” (Dr. Abi)
+          bothered. They don't even feed them properly. You can not project the
+          future when you don't look at your kids.” (Dr. Abi)
           <br />
           <br />
           Ethiopia does not have a well-established system to support the youth,
@@ -217,7 +217,7 @@ const Home = () => {
           <br />
           <br />
           All it takes is perseverance. Every national team has its downtimes
-          and the Walia’s are no exception. It might have seemed long looming
+          and the Walia's are no exception. It might have seemed long looming
           darkness, but changes need to happen if anything good is to be
           expected. Besides, the future sometimes bears the unthinkable.
           <br />
@@ -226,7 +226,7 @@ const Home = () => {
           are out of hope. In fact, the national team is a win and a draw away
           from qualifying one more time for the African Cup of Nations 2021. Two
           games await the Walias, one against Madascar here in Ethiopia and
-          another away match against Cote d’Ivoire (SoccerWay). Mesud stated,
+          another away match against Cote d'Ivoire (SoccerWay). Mesud stated,
           “Everyone [in the team] has the motivation and we are sure that we can
           be seen in international competitions once again.” So, if you are ever
           planning on dropping Ethiopia make sure to support the team. Plus,
@@ -240,4 +240,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default TheWalias

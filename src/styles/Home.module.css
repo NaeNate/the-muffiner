@@ -1,16 +1,17 @@
-.soccer {
+.article {
   margin: 30px;
   width: 45%;
   text-align: center;
   display: inline-block;
+  vertical-align: top;
 }
 
-.soccerImage {
+.image {
   width: 100%;
   height: auto;
 }
 
-.soccerBody {
+.body {
   text-align: justify;
   font-style: italic;
 }
@@ -19,23 +20,6 @@
   text-decoration: underline;
 }
 
-.france {
-  width: 60px;
-  height: 60px;
-  background-color: #fede58;
-  display: inline-block;
-}
-
-.brazil {
-  width: 60px;
-  height: 80px;
-  background-color: #67c486;
-  display: inline-block;
-}
-
-.portugal {
-  width: 60px;
-  height: 40px;
-  background-color: #fd5758;
-  display: inline-block;
-}
+/* #fede58;
+ #67c486;
+ #fd5757; */
