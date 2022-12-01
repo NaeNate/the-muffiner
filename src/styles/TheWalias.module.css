@@ -1,0 +1,14 @@
+.soccer {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.soccerImage {
+  width: 70%;
+  height: auto;
+}
+
+.soccerBody {
+  text-align: justify;
+}

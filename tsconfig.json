@@ -18,6 +18,7 @@
     "baseUrl": "./src",
     "paths": {
       "@styles/*": ["styles/*"],
+      "@public/*": ["public/*"],
       "@types": ["types.d.ts"],
       "@firebase": ["firebase.ts"]
     }
