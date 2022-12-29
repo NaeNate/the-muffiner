@@ -6,14 +6,31 @@
   vertical-align: top;
 }
 
+.articleRight {
+  margin: 30px;
+  width: 45%;
+  text-align: center;
+  vertical-align: top;
+  float: right;
+}
+
 .image {
   width: 100%;
   height: auto;
 }
 
-.body {
+.halfImage {
+  width: 50%;
+  height: auto;
+}
+
+.preview {
   text-align: justify;
   font-style: italic;
+}
+
+.body {
+  text-align: justify;
 }
 
 .readMore {
